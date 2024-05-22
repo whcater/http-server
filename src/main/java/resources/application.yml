@@ -1,0 +1,10 @@
+spring:
+  web:
+    resources:
+      static-locations: file:./web/
+      cache:
+        cachecontrol:
+          max-age: 0
+server:
+  servlet:
+    context-path: /
